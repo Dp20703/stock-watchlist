@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const watchlistModel = require('../models/watchlist.model');
-const { use } = require('react');
 
 // Add to watchlist => [ /api/watchlist/add ]
 router.post('/add', async (req, res) => {
